@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    font-size: 1em;
+}
+
+footer{
+    border-top: 2px black solid;
+    clear: both;
+}
+
+.content{
+    padding: 30px;
+}
+
+.nav-main{
+    width: 100%;
+    background-color: #222;
+    height: 70px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.nav-main .logo{
+    float: left;
+    height: 40px; 
+    padding: 15px 30px;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.nav-main > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.nav-main > ul > li{
+    float: left;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    background-color: #444;
+}
+
+.nav-item:focus{
+    background-color: #444;
+}
+
+.nav-item:focus ~ .nav-content{
+    max-height: 400px;
+    transition: max-height 0.4s ease-in;
+}
+
+.nav-content {
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    background-color: #222;
+    max-height: 0;
+}
+
+.nav-content a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-content a:hover{
+    text-decoration: underline;
+}
+
+.nav-sub{
+    padding: 20px;
+}
+
+.nav-sub ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-sub ul li a{
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.container{
+    position: relative;
+    padding-top:70px;
+}
+
+.over-img-text-top-left{
+    position: absolute;
+    top: 74px;
+    left: 16px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.banner-img{
+    width: 100%;
+    height: auto;  
+}
+
+.img-cr{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
+
+.linked-article{
+    color: black;
+    text-decoration: none;
+}
