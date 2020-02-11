@@ -7,10 +7,11 @@ body{
 footer{
     border-top: 2px black solid;
     clear: both;
+    padding-left: 30px;
 }
 
 .content{
-    padding: 30px;
+    padding-left: 30px;
 }
 
 .nav-main{
@@ -73,6 +74,10 @@ footer{
     max-height: 0;
 }
 
+.nav-content:hover {
+    max-height: 400px; 
+}
+
 .nav-content a{
     color: white;
     text-decoration: none;
@@ -118,6 +123,11 @@ footer{
 .img-cr{
     text-align: center;
     border-bottom: 2px black solid;
+}
+
+.in-article-img{
+    max-width: 450px;
+    height: auto;
 }
 
 .linked-article{
