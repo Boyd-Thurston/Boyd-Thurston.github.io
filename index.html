@@ -8,50 +8,59 @@
   </head>
 
   <body>
-    <nav class="nav-main">
-        <div class="logo">Mr Thurston @ EDA</div>
-        <ul>
-            <li>
-                <a href="index.html" class="nav-item">Home</a>
-            </li>
-            <li>
-                <a href="#" class="nav-item">Articles</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li>
-                                <a href="blog/sprint2_technical.html">CSS Positioning</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        </ul>
+    <nav class="navbar">
+      <div class="logo">Mr Thurston @ EDA</div>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="blog/sprint1-technical.html">Sprint 1 - The Story of Te Houtaewa</a>
+          <a href="blog/sprint2_technical.html">Sprint 2 - CSS Positioning</a>
+          <a href="#">Sprint 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Cultural Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sprint 1 - Identity and Values</a>
+          <a href="#">Sprint 2</a>
+          <a href="#">Sprint 3</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
     </nav>
 
     <header>
         <div class="container">
-        <img class="banner-img" style="display: block;" src="https://farm8.staticflickr.com/7413/10065420616_30fdef158e_b.jpg" alt="snow forest wolf white animals">
-        <div class="over-img-text-top-left">
-          <h1>Feed the White Wolf,<br>Be the White wolf</h1>
+        <img class="banner-img" src="images/home-banner.PNG" alt="busy we developers desk">
+        <div class="centered-text-over-img">
+          <h1>A journey to become a web developer</h1>
         </div>
-        </div>
-        <div class="img-cr">
-            <p style="font-size: 0.9rem;font-style: italic;">
-                <a href="https://www.flickr.com/photos/104094986@N06/10065420616">"snow forest wolf white animals"</a>
-                    <span> by 
-                        <a href="https://www.flickr.com/photos/104094986@N06">Discover Me!</a>
-                            </span> is licensed under 
-                                <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
-                                    <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;">
-                                        <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" />
-                                            <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" />
-                                                <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" />
-                                                    <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a>
-            </p>
         </div>
     </header>
+
     <main class="content">
+      <p>
+        This website is both a record of my journey through the <a href="https://devacademy.co.nz/">Enspiral Dev Academy's</a> (EDA) 
+        foundations curriculum and a live test of my skills as a fledgling web developer. 
+      </p>
+      <p>
+        As I progress through this course it will grow with new articles for both the 
+        technical and cultural blogs. The technical blog will showcase new aspects and 
+        understandings on my learnings as I progress through the foundation sprints. Whereas 
+        the cultural blog will capture my views and reflections as a student and person 
+        kicking off with Identity and values as these things normally do. 
+      </p>
+      <p>
+        As always I am one who welcomes constructive criticism and feedback, so don't be afraid 
+        to make <a href="contact.html">contact</a>.
+      </p>
+      
+      <h2>Featured Articles</h2>
       <a class="linked-article" href="blog/sprint2_technical.html">
         <article>
             <h2>CSS Positioning</h2>
@@ -71,7 +80,11 @@
       </a>
     </main>
     <footer>
-      <p>All images are original works created by my self or sorced from <a href="https://creativecommons.org/">creative commons</a>.</p>
+      <p>All images in this website are either original works created by myself, or sourced from free 
+        image repositories such as 
+          <a href="https://creativecommons.org/">Creative Commons</a> or
+            <a href="https://www.freeimages.com/">Freeimages</a>.
+      </p>
     </footer>
   </body>
 </html>
