@@ -8,47 +8,38 @@
   </head>
 
   <body>
-    <nav class="nav-main">
-        <div class="logo">Mr Thurston @ EDA</div>
-          <ul>
-            <li>
-              <a href="../index.html" class="nav-item">Home</a>
-            </li>
-            <li>
-                <a href="#" class="nav-item">Articles</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li>
-                                <a href="sprint2_technical.html">CSS Positioning</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        </ul>
+    <nav class="navbar">
+      <div class="logo">Mr Thurston @ EDA</div>
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sprint1-technical.html">Sprint 1 - The Story of Te Houtaewa</a>
+          <a href="sprint2_technical.html">Sprint 2 - CSS Positioning</a>
+          <a href="#">Sprint 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Cultural Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sprint 1 - Identity and Values</a>
+          <a href="#">Sprint 2</a>
+          <a href="#">Sprint 3</a>
+        </div>
+      </div>
+      <a href="../contact.html">Contact</a>
     </nav>
 
     <header>
       <div class="container">
-        <img class="banner-img" style="display: block;" src="https://farm8.staticflickr.com/7003/6768539443_19095c6e0c_b.jpg" alt="The kind of guy you never get to know">
-        <div class="over-img-text-top-left">
+        <img class="banner-img" src="../images/tech-blog-banner.jpg" alt="curcuit board banner">
+        <div class="centered-text-over-img">
           <h1>CSS Positioning</h1>
-          <h2>A technical blog</h2>
         </div>
-      </div>
-      <div class="img-cr">
-        <p style="font-size: 0.9rem;font-style: italic;">
-          <a href="https://www.flickr.com/photos/65408493@N05/6768539443">"The kind of guy you never get to know"</a>
-            <span> by 
-              <a href="https://www.flickr.com/photos/65408493@N05">sdaponte</a>
-                </span> is licensed under 
-                  <a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-SA 2.0</a>
-                    <a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;">
-                        <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" />
-                          <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" />
-                            <img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a>
-        </p>
       </div>
     </header>
 
@@ -121,9 +112,7 @@
         <img class="in-article-img" src="../images/sp2-t4-blog-figure2.PNG" alt="absolute positioning example">
         <p>
           Try resizing the window you are viewing this in you see that the image and title 
-          stay about the same in relation to each other. On the other hand look at the 
-          copyright information below them. This is outside the invisible box, do you see 
-          how it starts to look a bit wired at curtin sizes?
+          stay about the same in relation to each other.
         </p>
 
         <h2>Fixed Positioning</h2>
@@ -150,7 +139,11 @@
     </main>
 
     <footer>
-      <p>All images are original works created by my self or sorced from <a href="https://creativecommons.org/">creative commons</a>.</p>
+      <p>All images in this website are either original works created by myself, or sourced from free 
+        image repositories such as 
+          <a href="https://creativecommons.org/">Creative Commons</a> or
+            <a href="https://www.freeimages.com/">Freeimages</a>.
+      </p>
     </footer>
   </body>
 </html>
