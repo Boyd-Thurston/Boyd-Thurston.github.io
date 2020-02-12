@@ -4,6 +4,19 @@ body{
     font-size: 1em;
 }
 
+article{
+    width: 45%;
+    float: left;
+    border: #222 solid 2px;
+    border-radius: 4px;
+    margin: 0px 5px 7px 0px;
+    padding: 0px 5px;
+}
+
+article h2{
+    text-align: center;
+}
+
 footer{
     border-top: 2px black solid;
     clear: both;
@@ -14,110 +27,124 @@ footer{
     padding-left: 30px;
 }
 
-.nav-main{
-    width: 100%;
+.linked-article{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*navigation styels*/
+
+.navbar {
     background-color: #222;
-    height: 70px;
-    color: white;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
 }
-
-.nav-main .logo{
+  
+.navbar a {
     float: left;
-    height: 40px; 
-    padding: 15px 30px;
-    font-size: 1.4em;
-    line-height: 40px;
-}
-
-.nav-main > ul{
-    margin: 0;
-    padding: 0;
-    float: left;
-    list-style-type: none;
-}
-
-.nav-main > ul > li{
-    float: left;
-}
-
-.nav-item {
-    display: inline-block;
-    padding: 15px 20px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 16px;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-.nav-item:hover{
+.logo{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #444;
 }
 
-.nav-item:focus{
-    background-color: #444;
-}
-
-.nav-item:focus ~ .nav-content{
-    max-height: 400px;
-    transition: max-height 0.4s ease-in;
-}
-
-.nav-content {
+.dropdown-content {
+    display: none;
     position: absolute;
-    top: 70px;
-    overflow: hidden;
     background-color: #222;
-    max-height: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.nav-content:hover {
-    max-height: 400px; 
-}
-
-.nav-content a{
-    color: white;
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
     text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
-.nav-content a:hover{
-    text-decoration: underline;
+.dropdown-content a:hover {
+    background-color: #444;
 }
 
-.nav-sub{
-    padding: 20px;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-.nav-sub ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
 
-.nav-sub ul li a{
-    display: inline-block;
-    padding: 5px 0;
-}
+
+
+
+
+/*image styles*/
 
 .container{
     position: relative;
-    padding-top:70px;
+    padding-top: 50px;
 }
 
 .over-img-text-top-left{
     position: absolute;
     top: 74px;
-    left: 16px;
+    left: 20px;
     font-size: 1.4em;
-    color: #fff;
+    color: snow;
 }
+
+.centered-text-over-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+  }
 
 .banner-img{
     width: 100%;
-    height: auto;  
+    height: auto;
+    max-height: 210px;  
 }
 
 .img-cr{
@@ -128,9 +155,4 @@ footer{
 .in-article-img{
     max-width: 450px;
     height: auto;
-}
-
-.linked-article{
-    color: black;
-    text-decoration: none;
 }
