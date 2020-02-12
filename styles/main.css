@@ -4,6 +4,13 @@ body{
     font-size: 1em;
 }
 
+h1{
+    font-family: 'Coda Caption', sans-serif;
+    color: #fff;
+}
+
+
+
 article{
     width: 45%;
     float: left;
@@ -137,8 +144,8 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.6em;
-    color: #fff;
     text-align: center;
+    color: orangered;
   }
 
 .banner-img{
