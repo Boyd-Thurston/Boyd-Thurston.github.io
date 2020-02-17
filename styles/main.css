@@ -165,3 +165,8 @@ footer{
     text-align: center;
     border-bottom: 2px black solid;
 }
+
+.centered-iframe{
+    margin:auto; 
+    display: block;
+}
