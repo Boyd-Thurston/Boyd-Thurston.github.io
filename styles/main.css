@@ -9,7 +9,14 @@ h1{
     color: #fff;
 }
 
-
+h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -50px; 
+    height: 50px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
 
 article{
     width: 45%;
