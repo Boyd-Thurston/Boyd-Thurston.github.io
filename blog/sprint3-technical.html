@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sprint 3 Technical blog</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Mr Thurston @ EDA</div>
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sprint1-technical.html">Sprint 1 - The Story of Te Houtaewa</a>
+          <a href="sprint2_technical.html">Sprint 2 - CSS Positioning</a>
+          <a href="sprint3-technical.html">Sprint 3 - JavaScrip and its bits and pieces plus the DOM</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Cultural Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sprint1-cultural.html">Sprint 1 - Identity and Values</a>
+          <a href="sprint2-cultural.html">Sprint 2 - Q&A with EDA</a>
+          <a href="sprint3-cultural.html">Sprint 3 - Emotional Intelligence and Me</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">In page navigation
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#section1">HTML and CSS what's the difference?</a>
+          <a href="#section2">Control flow and loops  what are they and how do they relate to real life?</a>
+          <a href="#section3">The DOM what is it? And how you might interact with it?</a>
+          <a href="#section4">What is the difference between accessing data from arrays and objects?</a>
+          <a href="#section5">What is a function, and why are they useful?</a>
+        </div>
+      </div>
+      <a href="../contact.html">Contact</a>
+    </nav>
+
+    <header>
+      <div class="container">
+        <img class="banner-img" src="../images/tech-blog-banner.jpg" alt="curcuit board banner">
+        <div class="centered-text-over-img">
+          <h1>JavaScrip and its bits and pieces plus the DOM</h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <p>
+        This week's technical blog is about explaining technical terms without jargon and 
+        in a non-technical friendly way. That and packing it with analogies too, so let's 
+        see if mine are at least a little entertaining. 
+      </p>
+
+      <h2 id="section1">HTML and CSS what's the difference?</h2>
+      <p>
+        The difference between HTML and CSS is that they are responsible for different 
+        parts of the website. HTML is the blueprint for the websites it's skeletal 
+        structure, sure it includes a lot of the content and all its listed parts but only 
+        in its rawest form. CSS on the other hand is the look. It dresses each HTML element 
+        based on its instructions, think of it as your costume department manager. If we 
+        try to put this into a real world idea example say you are putting on a play, HTML 
+        has sourced all your actors, the set, and the script telling everyone where they 
+        should be. CSS’s job is to make sure they all look the part, each actor is wearing 
+        the correct costume, each set item is painted/dressed up in the correct way and so 
+        forth.
+      </p>
+
+      <h2 id="section2">Control flow and loops  what are they and how do they relate to real life?</h2>
+      <p>
+        Control flow as the name suggests controls the flow of a program, it is the 
+        sequential order that parts of the program activate for example what happens at the 
+        start when it is loaded, what happens when you click this button and so on. Loops 
+        are a type of function an activity of the program that does something over and over 
+        until a set stopping point is reached. This is normally controlled by a conditional 
+        statement and stops when the condition is no longer met kind of like  “do this 
+        until it has been done for every item in this container” or in programing terms 
+        for( item in container){ do this thing;}. 
+      </p>
+      <p>
+        Now let's put a in real life example on this idea say you are making a cup of 
+        coffee. You would generally follow a process (an not the average wellingtonian 
+        process of walking to the local brewista) you would first get a cup, then put in a 
+        variable amount of coffee depending on taste maybe some sugar too, boil the kettle 
+        until it clicks, add hot water, stir until the dry ingredients dissolve, if you are 
+        so inclined ad milk. Pretty basic but this is the control flow in action. It also 
+        has a few loops in it as well, such as the kettle keeps boiling until it is hot 
+        enough, you keep stirring until the dry ingredients are dissolved etc.
+      </p>
+
+      <h2 id="section3">The DOM what is it? And how you might interact with it?</h2>
+      <p>
+        The Document Object Model or “The DOM”, is the glue that ties HTML, CSS and 
+        JavaScript together. What it does in relation to HTML elements is that it creates 
+        objects for each of the elements, making them into a thing that can be interacted 
+        with by object oriented programing languages such as JavaScript. 
+      </p>
+      <p>
+        To someone not technically inclined this might not sound like much so let's put it 
+        in a different context. Say you are trying to assemble a flat pack bookcase (in 
+        website terms say the page shows the blueprint then it morphs into the completed 
+        product). You are the one actively putting it together handling the transition (the 
+        animated morphing) from what you have and transforming it into what it's going to 
+        be, this makes you JavaScript. Now as we touched on earlier HTML is your blueprint 
+        with its list of parts and CSS is the look of the item your colour/style selection 
+        in this example. Once it comes time to assemble this bookcase it's not going to get 
+        very far if you physically only have a blueprint to work from and no parts to 
+        assemble. That is where the DOM comes in, if you think of the DOM as the 
+        manufacturer. This manufacture sits on the assembly line making the parts that will 
+        then be packaged and shipped with the flatpack. How it does this is to take each of 
+        the listed parts on the blueprint (the HTML elements) say a screw. It then assigned 
+        properties how it looks based on the CSS instructions, say the screw (defined by 
+        the HTML tag) is 20mm long and has a phillips head (CSS styles). It does this for 
+        each part listed in the blueprint then the finished object is then packed and 
+        shipped off. The DOM’s job is done. The animation of turning the screw and putting 
+        it in place can then be handled by JavaScript, something that it couldn’t do until 
+        it had an object(s) to manipulate.
+      </p>
+
+      <h2 id="section4">What is the difference between accessing data from arrays and objects?</h2>
+      <p>
+        Objects and arrays on their surface can seem similar as they both hold a bunch of 
+        data however they are actually very different in their use. An array is more of a 
+        traditional list or list of lists, holding data that can be accessed via the 
+        position it takes in the list good if you know where it is but not very dynamic if 
+        you have something more specific in mind. An object holds data but each piece of 
+        data or value is assigned to a property or key, this giving you a key value pair. A 
+        key value pair can be accessed by looking for the value or a key or any combination 
+        provided it can be logically stated. 
+      </p>
+      <p>
+        Sounds confusing I know so let's put it in some context. Say you have a list of 
+        people and addresses. In an array each person and address is its on sublist from 
+        the original an array within an array and you need to know where each entry sits to 
+        use it in a program. Say you have a person ‘bob’ who lives at ‘123 Nowhere Street’, 
+        you know bob is the third person in the list so you tell the computer to pull the 
+        third position and just his address which is position two then vala you have his 
+        address to work with. This is fine if you have a small list and can bring it up to 
+        check the position if you forget but what if your list has 1000 people in it? This 
+        would be hard to remember so it would be easier to search by the property itself 
+        and that's where objects come in. With an object you could search for the ‘Bob’ and 
+        get his address no matter how many entries you have or where it sits within the 
+        list. 
+      </p>
+      <p>
+        Stopping here would be selling objects short they are so much more than a database 
+        table, as this course progresses I’m sure we will have to explain classes at way to 
+        set rules around types of objects and also methods on how the get used tying in a 
+        function into the object itself, sure it still will have properties listed in key 
+        value pairs but they take on a new meaning. For example say your object is a tennis 
+        ball, your class says the object has a shape of spherical, has a colour dictated by 
+        the object itself in this case green/yellow whatever, but this type of object has a 
+        method of being thrown. Enter the classes in build function that dictates how this 
+        happens. This is the basis of an object orientated programing language that allows 
+        them to do almost anything in a program. 
+      </p>
+
+      <h2 id="section5">What is a function, and why are they useful?</h2>
+      <p>
+        A function is a piece of reusable code that does something in a program. If we go 
+        back to our coffee example a function could be called makeingCoffee that provides 
+        us with a cup of coffee as the end product. Within this function there are multiple 
+        blocks of code that all do the different bits to at the end come together to make 
+        the whole. Now let's say you wanted to make another coffee later you could redefine 
+        the process and write out the code all over again but who wants to reinvent the 
+        wheel over and over again. This is where the reusable part comes in, having this 
+        code in a function means that it never has to be written again in the program, it 
+        is all held in once place. Having it in one place as a function means the function 
+        can be called on again and again but only uses the same bit of code every time it 
+        is called on. It also allows it to be updated without having to find each and every 
+        copy of that code wasting everyone's time. There is actually a term called WET 
+        coding that refers to this last point it stands for “Write Everything Twice” or 
+        “Waste Everyone’s Time” as opposed to DRY coding that means “Don’t Repeat Yourself” 
+        which is preferable.
+      </p>
+
+    </main>
+
+    <footer>
+      <p>All images in this website are either original works created by myself, or sourced from free 
+        image repositories such as 
+          <a href="https://creativecommons.org/">Creative Commons</a> or
+            <a href="https://www.freeimages.com/">Freeimages</a>.
+      </p>
+    </footer>
+  </body>
+</html>
