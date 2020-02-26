@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sprint 4 Technical blog</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">Mr Thurston @ EDA</div>
+      <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Tech Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sprint1-technical.html">Sprint 1 - The Story of Te Houtaewa</a>
+          <a href="sprint2_technical.html">Sprint 2 - CSS Positioning</a>
+          <a href="sprint3-technical.html">Sprint 3 - JavaScrip and its bits and pieces plus the DOM</a>
+          <a href="sprint4-technical.html">Sprint 4 - My experiences with JavaScript</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Cultural Blog
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sprint1-cultural.html">Sprint 1 - Identity and Values</a>
+          <a href="sprint2-cultural.html">Sprint 2 - Q&A with EDA</a>
+          <a href="sprint3-cultural.html">Sprint 3 - Emotional Intelligence and Me</a>
+          <a href="sprint4-cultural.html">Sprint 4 - Neuroplasticity and the Growth Mindset</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">In page navigation
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#section1">What simple problem did I get blocked on?</a>
+          <a href="#section2">What problem did I solve in an elegant way?</a>
+          <a href="#section3">Reflection on techniques</a>
+        </div>
+      </div>
+      <a href="../contact.html">Contact</a>
+    </nav>
+
+    <header>
+      <div class="container">
+        <img class="banner-img" src="../images/tech-blog-banner.jpg" alt="curcuit board banner">
+        <div class="centered-text-over-img">
+          <h1>My experiences with JavaScript</h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <p>
+        In this week's sprint we were asked to practice, practice and do a little more 
+        practice with JavaScript. It was focused around introducing new (or newish) 
+        principles, as well as doing coding katas. Yes katas, just like martial arts but 
+        with repetitive coding practice. We were then asked to share some of our personal 
+        stories on this blog post so here goes!
+      </p>
+
+      <h2 id="section1">What simple problem did I get blocked on?</h2>
+      <p>
+        Da bees, da damn bees. It was an interesting problem taking a bunch of sentences 
+        (strings for those technically minded) filled with buzz’s and removing them to 
+        filter out the annoying bee sounds. I pondered over the solution for a little bit, 
+        and broke it down into pieces isolating each word and creating a new sentence with 
+        all words except “buzz”. All was going well but for some reason I could not get it 
+        to show the result I was expecting. Then came the online research that seemed to 
+        support my case, but again it still wouldn’t work. Again and again I tried and 
+        failed but again and again the solutions online supported what I was doing. After 
+        an hour of almost zero progress I gave up and looked up the official solution to 
+        reverse engineer it and what did I find, the code was almost identical I had simply 
+        missed three characters in my original attempt. Where I had a () I should have had 
+        a (‘ ‘). That was it, one simple error that was causing all my issues, something I 
+        missed online because I was looking for answers not an unnoticed syntax error for 
+        what I was trying to achieve. Sigh.
+      </p>
+
+      <h2 id="section2">What problem did I solve in an elegant way?</h2>
+      <p>
+        To be honest, after a few similar errors where all it would take was another human 
+        going hey, you missed a ‘ ‘ out or a ; my confidence is pretty shot. I am not sure 
+        I would call any of my solutions elegant. Maybe the bees if I had noticed the ‘ ‘ 
+        was missing and got it first go. As it stands, I would say my solutions were 
+        passable, functional but not elegant. I may just be being over critical or 
+        exhausted from the week of revolving illness (every parent knows how that goes when 
+        one child brings home a bug and everyone then takes turns at being sick) but that 
+        is how I feel: more frazzled and unconfident than beaming optimism to call anything 
+        elegant.
+      </p>
+
+      <h2 id="section3">Reflection on techniques</h2>
+      <p>
+        For the last part of this week's technical blog, we were asked to state how 
+        confident we feel in using a list of problem solving techniques. Working through a 
+        list can read as a little dull but let's try and see how we go, please bear with me.
+      </p>
+      <p>
+        <b>Pseudocode:</b> well it's a fine idea. State the intent of a function and how 
+        it's going to work in brief written steps commented out so the don’t impact the 
+        code. Personally I like the idea until I do something silly like not comment a line 
+        and break everything. Easily fixed, though sometimes it seems to get in the way 
+        when doing exercises like we did this week. Although from previous experience, at 
+        the last institution I was at we did make a python version of battleships with the 
+        added challenge of using classes for almost everything, on a project like that 
+        pseudocode and comments really save the day.
+      </p>
+      <p>
+        <b>Trying something:</b> well try and try again as I always say. Although it does 
+        help to think first or quote another cliche: look before you leap. Getting stuck in 
+        has never been a problem for me.
+      </p>
+      <p>
+        <b>Rubber ducky method:</b> what an interesting methodology. Talk to yourself or an 
+        inanimate object just to hear yourself explain it. Then give yourself the answer as 
+        you figure out the thing you didn’t think about when it was just in your head. Who 
+        ever said talking to yourself is the first sign of insanity? In programming it is 
+        actively encouraged. As for me, well I am confident in this, (even if I did pester 
+        the facilitator earlier and answer my own question) if you read the first sprints 
+        cultural blog you may remember that I am a creative individual, as how it plays out 
+        with this I could seemingly sit down have a cup of coffee and space out for a time, 
+        only to come back with the answer. The reason being I can actively envision the 
+        conversation without it happening. It's like popping into your own realm and 
+        directing a play about the problem once you have witnessed it and come back to 
+        reality, then you have effectively done the rubber ducky method without displaying 
+        a little bit of crazy to everyone around you. Even if it seems slightly more crazy 
+        now I’m explaining popping off to a different reality at will … let's forget that 
+        bit shall we.
+      </p>
+      <p>
+        <b>Reading error messages:</b> error messages are my friends. They most of the time 
+        point out what I have done wrong. Just like spell check that most of the time 
+        works. I think it’s just part of the joy of being dyslexic: you learn to use these 
+        functions as assistive technology. The one problem with all assistive technology is 
+        that it is very easy to become over reliant on it. It’s good when you need it but 
+        you shouldn’t rely on it when you don’t. 
+      </p>
+      <p>
+        <b>Console.logging:</b> visibility is key to understanding anything, although I do 
+        miss debugging programs that do that for you so you don’t need to bother commenting 
+        out and uncommenting lines of code solely so you can see what one variable is set 
+        to at a given time. Sadly we have not covered debugging programs yet and are still 
+        learning the basics of visibility. 
+      </p>
+      <p>
+        <b>Googling:</b> the joy of the information revolution is that there is an answer 
+        to every question somewhere online. In fact it’s more like 100,000 possible answers 
+        to every question. The problem is that it is hard to know which is the best answer, 
+        which actually relates to what you want, and which are just down right wrong. I am 
+        still learning to quickly wade through crap and find the gems of wisdom. Even 
+        forums that are normally quite good and start out on track can easily go off on a 
+        tangent and never recover (like half the stack overflow posts I read). What I need 
+        to do is pick up in speed of deciding what not to continue spending time reading 
+        and being more precise in my original searches.
+      </p>
+      <p>
+        <b>Asking for help:</b> I decided to combine the “Asking your peers for help” and 
+        “Asking coaches for help” question into one as with me it's the same issue for 
+        both. Sure, the facilitators are paid for recourse but I do even in my wisdom still 
+        prescribe to the age old NZ adage of “She’ll be right”. I don’t know what it is 
+        about this country and being stoic, I see it in others too all the time. I have 
+        tried to break this mould but I still come back to it. If you happen to be one of 
+        the few I have directly asked for help you now know that it took some time to even 
+        get that far, even more so if it was via a messenger or the like as that message 
+        was probably written and rewritten several times not to mention put through spell 
+        checking at least twice. 
+      </p>
+      <p>
+        Improving your process with reflection: I am a great one at reflecting and by that 
+        I mean meaningful reflection - a little incremental process here, a lesson learned 
+        there, it all adds up. I generally never make the same mistake twice or at least I 
+        make a conscious effort not to, well unless I’m tired. Then I’m like a broken 
+        record skipping at the same point over and over again, repeated syntax errors 
+        spring to mind.
+      </p>
+    </main>
+
+    <footer>
+      <p>All images in this website are either original works created by myself, or sourced 
+        from free image repositories such as <a href="https://creativecommons.org/">Creative Commons</a> 
+        or <a href="https://www.freeimages.com/">Freeimages</a>.
+      </p>
+    </footer>
+  </body>
+</html>
